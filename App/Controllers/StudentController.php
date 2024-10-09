@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Controllers;
+
+class StudentController
+{
+    public function allGet()
+    {
+        include realpath(__DIR__ . "/../Views/students/index.php");
+    }
+
+    public function create()
+    {
+        include realpath(__DIR__. "/../Views/students/addStudent.php");
+    }
+}
+?>

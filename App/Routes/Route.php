@@ -33,12 +33,6 @@ class Route
         }
 
         if(is_array($action)){
-
-            // echo '<pre>';
-            // print_r($action[1]);
-            // echo '</pre>';
-            // call_user_func_array([new $action[0], $action[1]], []);
-
             $controller = new $action[0]();
             $controller->{$action[1]}();
         }
