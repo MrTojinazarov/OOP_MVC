@@ -1,7 +1,6 @@
 <?php
-session_start();
-
 namespace App\Views\Exams;
+session_start();
 
 use App\Models\Student;
 use App\Models\Fan;
@@ -24,16 +23,16 @@ $fans = Fan::getAll();
     <div class="container">
         <div class="nav mt-2">
             <ul>
-                <a href="index.php">Talaba</a>
+                <a href="indexNav">Talaba</a>
             </ul>
             <ul>
-                <a href="fanlar.php">Fanlar</a>
+                <a href="fanlarNav">Fanlar</a>
             </ul>
             <ul>
-                <a href="addExam.php">Imtixon</a>
+                <a href="addExamNav">Imtixon</a>
             </ul>
             <ul>
-                <a href="result.php">Natija</a>
+                <a href="resultNav">Natija</a>
             </ul>
         </div>
         <div class="row mt-3">

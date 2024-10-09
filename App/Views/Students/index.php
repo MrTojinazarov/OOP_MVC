@@ -1,4 +1,5 @@
 <?php
+
 use App\Models\Student;
 
 $students = Student::getAll();
@@ -18,16 +19,16 @@ $students = Student::getAll();
     <div class="container">
         <div class="nav mt-2">
             <ul>
-                <a href="index.php">Talaba</a>
+                <a href="indexNav">Talaba</a>
             </ul>
             <ul>
-                <a href="fanlar.php">Fanlar</a>
+                <a href="fanlarNav">Fanlar</a>
             </ul>
             <ul>
-                <a href="addExam.php">Imtixon</a>
+                <a href="addExamNav">Imtixon</a>
             </ul>
             <ul>
-                <a href="result.php">Natija</a>
+                <a href="resultNav">Natija</a>
             </ul>
         </div>
         <div class="row mt-2">

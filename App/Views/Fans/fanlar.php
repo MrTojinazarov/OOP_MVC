@@ -16,9 +16,20 @@ $fans = Fan::getAll();
 
 <body>
     <div class="container">
-        <?php 
-        
-        ?>
+    <div class="nav mt-2">
+            <ul>
+                <a href="indexNav">Talaba</a>
+            </ul>
+            <ul>
+                <a href="fanlarNav">Fanlar</a>
+            </ul>
+            <ul>
+                <a href="addExamNav">Imtixon</a>
+            </ul>
+            <ul>
+                <a href="resultNav">Natija</a>
+            </ul>
+        </div>
         <div class="row mt-3">
             <div class="col-12">
                 <h3>
