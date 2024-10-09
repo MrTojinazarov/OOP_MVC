@@ -51,8 +51,8 @@ $students = Student::getAll();
                             <td><?= $student->id ?></td>
                             <td><?= $student->name ?></td>
                             <td>
-                                <a href="?updateStudent&id=<?= $student->id ?>" class="btn btn-warning">Update</a>
-                                <a href="?deleteStudent&id=<?= $student->id ?>" class="btn btn-primary">Delete</a>
+                                <a href="updateStudent&id=<?= $student->id ?>" class="btn btn-warning">Update</a>
+                                <a href="deleteStudent&id=<?= $student->id ?>" class="btn btn-primary">Delete</a>
                             </td>
                         </tr>
                     <?php } ?>

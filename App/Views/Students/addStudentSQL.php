@@ -8,9 +8,9 @@ if(isset($_POST['submit'])){
         ];
 
         Student::create($data);
-        header("Location: ?index");
+        header("Location: indexNav");
     }else{
-        header("Location: ?addStudent");
+        header("Location: addStudent");
         exit();
     }
 }

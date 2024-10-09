@@ -27,12 +27,12 @@
         <div class="row mt-3">
             <div class="col-12">
                 <h1>Talaba qo'shish</h1>
-                <a href="index.php" class="btn btn-primary" style="width:100px">Back</a>
+                <a href="allStudents" class="btn btn-primary" style="width:100px">Back</a>
             </div>
         </div>
         <div class="row mt-3">
             <div class="col">
-                <form action="?addStudentSQL" method="POST">
+                <form action="addStudentSQL" method="POST">
                     <div>
                         <input type="text" class="form-control" name="name" placeholder="Name">
                     </div>
