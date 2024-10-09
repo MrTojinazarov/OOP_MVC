@@ -17,7 +17,4 @@ class Request
     }
 }
 
-
-// php =S localhost:8000
-
 ?>
